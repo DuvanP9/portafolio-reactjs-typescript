@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -12,13 +13,13 @@ function Home() {
     <div className="container">
       <div>
         <Link className="Navbar__brand" to="/Landing">
-      <Button variant="contained">Landing</Button>
-      </Link>
+          <Button variant="contained">Landing</Button>
+        </Link>
       </div>
       <div>
         <Link className="Navbar__brand" to="/Dashboard">
-      <Button variant="contained">Dashboard</Button>
-      </Link>
+          <Button variant="contained">Dashboard</Button>
+        </Link>
       </div>
     </div>
   );
