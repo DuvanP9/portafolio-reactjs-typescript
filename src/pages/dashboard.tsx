@@ -3,7 +3,7 @@ import React from 'react';
 import TemporaryDrawer from '../components/DrawerDashboard';
 
 
-function dashboard() {
+function Dashboard() {
 
   return (
       <div>
@@ -13,4 +13,4 @@ function dashboard() {
   );
 }
 
-export default dashboard;
+export default Dashboard;
